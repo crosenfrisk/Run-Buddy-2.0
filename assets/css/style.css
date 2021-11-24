@@ -12,16 +12,19 @@ body {
 
 /* apply styles to <header> */
 header {
+    /*Add:*/display: flex;
+    /*Add:*/justify-content: space-between;
+    /*Add:*/flex-wrap: wrap;
     padding: 20px 35px;
     background-color: #39a6b2;
 }
 
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-    display: inline;
+    /*Remove: display: inline;*/
 }
 
 header a {
@@ -30,7 +33,7 @@ header a {
 }
 
 header nav {
-    float: right;
+    /*Remove: float: right;*/
     margin: 7px 0;
 }
 
