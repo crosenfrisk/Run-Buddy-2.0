@@ -1,2 +1,14 @@
-# Run-Buddy-2.0
-Advanced CSS module, playing with development branch and feature branches, as well as CSS responsiveness and improved layout for mobile UX/UI.
+# Run Buddy 2.0
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://crosenfrisk.github.io/Run-Buddy-2.0/
+
+## Contribution
+Made with :heart: by Claire Rosenfrisk
