@@ -227,7 +227,7 @@ section {
 
 /*Add:*/
 .step-img {
-      flex-wrap: 1 12%;
+      flex: 1 12%;
       margin-right: 20px;
   }
 
