@@ -210,24 +210,49 @@ section {
       color: #024e76;
       font-size: 46px;
       /*Remove: margin-top: 10px;*/
+      /*Add:*/ flex: 1 30%;
   }
 
-  .step-text p {
-      color:#39a6b2;
-      font-size: 18px;
-  }
-
-  .step-text h4 {
-      font-size: 26px;
-      line-height: 1.5;
-      color: #024e76;
-  }
+ /*Add:*/
+ .step-info {
+    flex: 2 70%;
+    /*Add:*/ display: flex;
+    /*Add:*/ flex-wrap: wrap;
+    /*Add:*/ align-items: center;
+}
 
  /*Remove: .steps span {
       font-size: 38px;
   }*/
 
-  .section-title {
+/*Add:*/
+.step-img {
+      flex-wrap: 1 12%;
+      margin-right: 20px;
+  }
+
+/*Add:*/
+.step-img img {
+    max-width: 100%;
+}
+
+/*Add:*/ 
+.step-text {
+      flex: 12;
+  }
+
+.step-text p {
+    color:#39a6b2;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.section-title {
     font-size: 55px;
     color: #024e76;
     /*Remove: margin-bottom: 35px;*/
@@ -250,9 +275,8 @@ section {
 
   /*Meet the Trainers Section*/
 
-  .trainers {
+  /*remove .trainers {
       /*Remove: text-align: center;*/
-  }
 
   .trainer {
       width: 900px;
