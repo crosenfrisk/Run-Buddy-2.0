@@ -481,7 +481,7 @@ section {
     header h1 {
       width: 100%;
       border: none;
-      background: var(--primary-color);
+      background: var(--terciary-color);
       color: var(--secondary-color);
       text-align: center;
     }
