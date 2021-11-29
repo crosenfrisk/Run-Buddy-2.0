@@ -446,6 +446,8 @@ section {
       width: 100%;
       margin-bottom: 15px;
       margin-top: 5px;
+      border-radius: 15px;
+      background-color: rgba(255,255,255,.75);
   }
 
   .contact-info a {
